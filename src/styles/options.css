@@ -1,0 +1,60 @@
+.options-layout {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 28px;
+  display: grid;
+  gap: 18px;
+}
+
+.card {
+  padding: 20px;
+}
+
+.section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.rule-list {
+  display: grid;
+  gap: 12px;
+}
+
+.rule-row {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  border-radius: 16px;
+  background: rgba(248, 250, 252, 0.84);
+}
+
+.rule-key {
+  flex: 1;
+  min-width: 0;
+  word-break: break-all;
+  color: #0f172a;
+}
+
+.rule-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.rule-actions select {
+  min-width: 132px;
+}
+
+.empty-state {
+  margin: 0;
+  padding: 18px;
+  border: 1px dashed rgba(148, 163, 184, 0.45);
+  border-radius: 16px;
+  text-align: center;
+  color: #64748b;
+}

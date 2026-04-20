@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PageLinkMode 规则管理</title>
+  </head>
+  <body>
+    <main class="options-layout">
+      <section class="hero">
+        <p class="eyebrow">PageLinkMode</p>
+        <h1>规则管理</h1>
+        <p class="subtle">统一查看全局默认模式、站点规则和单页规则。</p>
+      </section>
+
+      <section class="card">
+        <label class="control">
+          <span>全局默认模式</span>
+          <select id="options-global-mode">
+            <option value="same-tab">同标签页打开</option>
+            <option value="new-tab">新标签页打开</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="card">
+        <div class="section-head">
+          <h2>站点规则</h2>
+          <span id="site-count">0 条</span>
+        </div>
+        <div id="site-rules" class="rule-list"></div>
+      </section>
+
+      <section class="card">
+        <div class="section-head">
+          <h2>页面规则</h2>
+          <span id="page-count">0 条</span>
+        </div>
+        <div id="page-rules" class="rule-list"></div>
+      </section>
+    </main>
+    <script type="module" src="/src/options.ts"></script>
+  </body>
+</html>
